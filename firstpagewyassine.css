@@ -1,0 +1,32 @@
+body {
+	background: #1BBBC2;
+	font-size: 25px;
+
+}
+
+.container {
+	color: darkgreen;
+	padding: 20px;
+	text-align: center;
+	font-size: 
+}
+
+#summary {
+	background: lightgray;
+	border: 5x solid yellow;
+	padding: 10px;
+	width: 1000px;
+	height: 300px
+	font-size: 19px;
+}
+
+
+/*#fnform {
+	margin: 15px;
+	padding: 25px;
+}
+
+#ln {
+	margin: 15px;
+	padding: 15px;
+}*/
