@@ -1,20 +1,25 @@
-let h3 = document.querySelectorAll("h3");
-const form = document.querySelector("firstform");
-const button = document.getElementById("firstbutton");
+alert("cnnected to the JS file");
+prompt("connect yet?")
 
 
-h3.onmouseover."style.color = 'green' ";
+var h3 = document.queryselectorAll("h3");
+const textarea = document.queryselector("description");
+
+let username = document.getElementById("username");
+let ls = document.queryselectorAll("ls");
+let issuetype = document.getElementByTagName("it");
 
 
 
+h3.addEventLister("onmouseenter", function() {
+	this.style.color = "purple";
+}
+	
 
-// <h1 onclick="changeText(this)">Click on this text!</h1>
+username.addEventLister("onmouseover", function() {
+	this.innerHTML = "username or firstname :)"
+})
 
-// <script>
-// function changeText(id) {
-//     id.innerHTML = "Ooops!";
-// }
-// </script>
-
-// </body>
-// </html>
+it.addEventLister("onmouseover", function(){
+	this.style.weight, height = "29";
+})

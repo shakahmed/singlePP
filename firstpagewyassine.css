@@ -1,32 +1,56 @@
 body {
 	background: #1BBBC2;
+	background-image: url(https://manchester.unh.edu/sites/default/files/general/it.jpg);
+	background-size: 2300px;
 	font-size: 25px;
 
 }
 
 .container {
-	color: darkgreen;
+	text-align: center;
+	color: darkblue;
 	padding: 20px;
 	text-align: center;
 	font-size: 
 }
+ #username {
+ 	margin-bottom: 20px;
+ 	font-size: 17px;
+ }
 
-#summary {
+#description {
 	background: lightgray;
-	border: 5x solid yellow;
-	padding: 10px;
-	width: 1000px;
-	height: 300px
+	padding: 20px;
 	font-size: 19px;
+	margin-bottom: 19px; 
+	width: 999px;
+	height: 99px;
+	border: 2px solid lightgreen;
 }
 
-
-/*#fnform {
-	margin: 15px;
-	padding: 25px;
+button:hover {
+  background-color: lightgreen;
+  border-radius: 7px;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 7px 17px;
+  box-shadow: 0 1px lightgreen; 
 }
 
-#ln {
-	margin: 15px;
-	padding: 15px;
-}*/
+#username:focus {
+  background: lightgreen;
+}
+
+#description:focus {
+  background-color: white;
+}
+#button {
+  text-align: center;
+}
+
+#h4 {
+  border: 1px ;
+  text-align: center;
+ background-color: ;
+}
